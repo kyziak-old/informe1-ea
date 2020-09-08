@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{amsmath, physics}
+\usepackage{authblk}
+\usepackage{makecell, array}
+\usepackage[square,numbers]{natbib}
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{caption}
+
+\renewcommand{\tablename}{Figura}
+\renewcommand{\figurename}{Figura}
+\AtBeginDocument{\renewcommand\tablename{Figura}}
+\AtBeginDocument{\renewcommand\figurename{Figura}}
+
+\providecommand{\keywords}[1]
+{
+	\small
+	\textbf{\textit{Keywords---}} #1
+}
+
+\providecommand{\palabrasclave}[1]
+{
+	\small
+	\textbf{\textit{Palabras Clave---}} #1
+}
+
+\makeatletter 
+\let\c@table\c@figure
+\makeatother
+
+\title{Circuitos Básicos}
+\author{
+	{Anderson Stib Ibarra Orozco$^{1}$, Juan Jose Medina Velasquez$^{2}$}
+	\small{\texttt{$^{1}$asibarrao,$^{2}$jjmedinav}}\\
+	\small{Universidad Nacional de Colombia}	
+}
+\date{\today}
+
+ \begin{document}
+ \maketitle
+ \end{document}
